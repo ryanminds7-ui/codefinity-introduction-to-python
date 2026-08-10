@@ -1,15 +1,13 @@
+# 1. Correct variable names
 grocery_items = "milk cheese bread apples oranges chicken"
 
-# Extract dairy and bakery items
-dairy1 = grocery_items[0:4]     # 'milk'
-dairy2 = grocery_items[5:11]    # 'cheese'
-bakery1 = grocery_items[12:17]   # 'bread'
+dairy1   = grocery_items[0:4]    # 'milk'
+dairy2   = grocery_items[5:11]   # 'cheese'
+bakery1  = grocery_items[12:17]  # 'bread'
 
-# Use concatenation to create the output statement
-print(
-    "We have dairy and bakery items: "
-    + dairy1 + ", "
-    + dairy2 + ", and "
-    + bakery1
-    + " in aisle 5"
-)
+# 2. Use them consistently in your print
+print("We have dairy and bakery items: "
+      + dairy1 + ", "
+      + dairy2 + ", and "
+      + bakery1
+      + " in aisle 5")
